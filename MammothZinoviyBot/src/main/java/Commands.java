@@ -25,8 +25,8 @@ public class Commands {
     private static Map<Integer, String> eventCommandsDescription;
 
     static {
-        Map<Integer, String> tempCommands = new HashMap<>();
-        Map<Integer, String> tempCommandsDescription = new HashMap<>();
+        Map<Integer, String> tempCommands = new HashMap<Integer, String>();
+        Map<Integer, String> tempCommandsDescription = new HashMap<Integer, String>();
         tempCommands.put(HELP, "/help");
         tempCommands.put(DND, "/dnd");
         tempCommands.put(SONGS, "/songs");
@@ -42,8 +42,8 @@ public class Commands {
         mainCommands = Collections.unmodifiableMap(tempCommands);
         mainCommandsDescription = Collections.unmodifiableMap(tempCommandsDescription);
 
-        tempCommands = new HashMap<>();
-        tempCommandsDescription = new HashMap<>();
+        tempCommands = new HashMap<Integer, String>();
+        tempCommandsDescription = new HashMap<Integer, String>();
         tempCommands.put(TEXTS, "/text");
         tempCommands.put(CHORDS, "/chords");
         tempCommandsDescription.put(TEXTS, "Забыл слова. Сейчас напомним пиши комманду");
@@ -52,8 +52,8 @@ public class Commands {
         songsCommands = Collections.unmodifiableMap(tempCommands);
         songsCommandsDescription = Collections.unmodifiableMap(tempCommandsDescription);
 
-        tempCommands = new HashMap<>();
-        tempCommandsDescription = new HashMap<>();
+        tempCommands = new HashMap<Integer, String>();
+        tempCommandsDescription = new HashMap<Integer, String>();
         tempCommands.put(QUEST, "/quest");
         tempCommands.put(TRIP, "/trip");
         tempCommandsDescription.put(QUEST, "Если хочешь узнать, когда квест, или просмотреть статистику команды по всем квестам, " +
