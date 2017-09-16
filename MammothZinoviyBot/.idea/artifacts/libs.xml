@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="libs">
+    <output-path>$PROJECT_DIR$/out/artifacts/libs</output-path>
+    <root id="archive" name="libs.jar">
+      <element id="library" level="project" name="telegrambots-3.3-jar-with-dependencies" />
+    </root>
+  </artifact>
+</component>
