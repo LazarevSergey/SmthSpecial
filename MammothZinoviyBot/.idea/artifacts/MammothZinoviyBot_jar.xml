@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MammothZinoviyBot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MammothZinoviyBot_jar</output-path>
+    <root id="archive" name="MammothZinoviyBot.jar">
+      <element id="module-output" name="MammothZinoviyBot" />
+      <element id="library" level="project" name="telegrambots-3.3-jar-with-dependencies" />
+    </root>
+  </artifact>
+</component>
