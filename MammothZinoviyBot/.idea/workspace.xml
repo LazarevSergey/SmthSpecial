@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="727a7ad4-63e6-4c1e-858f-ac6995f17dd3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_telegram_telegrambotslib_3_3.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_example_telegrambots_3_3_jar_with_dependencies_3_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/telegrambots-3.3-jar-with-dependencies.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/telegrambots_3_3_jar_with_dependencies.xml" afterPath="$PROJECT_DIR$/.idea/libraries/telegrambots_3_3_jar_with_dependencies.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MammothZinoviyBot.iml" afterPath="$PROJECT_DIR$/MammothZinoviyBot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,11 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
               <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -146,6 +151,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Commands.java" />
         <option value="$USER_HOME$/.m2/settings.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -259,6 +265,23 @@
               <item name="telegram" type="462c0819:PsiDirectoryNode" />
               <item name="telegrambotslib" type="462c0819:PsiDirectoryNode" />
               <item name="3.3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MammothZinoviyBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MammothZinoviyBot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MammothZinoviyBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MammothZinoviyBot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MammothZinoviyBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MammothZinoviyBot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MammothZinoviyBot" type="b2602c69:ProjectViewProjectNode" />
@@ -745,7 +768,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.336" sideWeight="0.5330396" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.336" sideWeight="0.5330396" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1081,47 +1104,47 @@
         <state relative-caret-position="-21173">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1505635373484" expanded="true" signature="61136:61178" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="61136:61196" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="61136:61209" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="61136:61224" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65148:67445" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65148:67430" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65148:65264" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65148:65249" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65148:65229" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65148:65195" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65148:65173" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65314:65641" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65333:65626" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65428:65606" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65468:65572" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65489:65550" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65692:65957" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65711:65942" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65744:65922" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65784:65888" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="65805:65866" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66000:66311" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66019:66296" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66098:66276" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66138:66242" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66159:66220" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66362:66682" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66381:66667" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66469:66647" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66509:66613" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66530:66591" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66717:67023" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66736:67008" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66810:66988" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66850:66954" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="66871:66932" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="67075:67416" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="67094:67401" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="67203:67381" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="67243:67347" ph="..." />
-            <marker date="1505635373484" expanded="true" signature="67264:67325" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="61136:61178" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="61136:61196" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="61136:61209" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="61136:61224" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66309:68606" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66309:68591" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66309:66425" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66309:66410" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66309:66390" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66309:66356" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66309:66334" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66475:66802" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66494:66787" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66589:66767" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66629:66733" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66650:66711" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66853:67118" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66872:67103" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66905:67083" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66945:67049" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="66966:67027" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="67161:67472" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="67180:67457" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="67259:67437" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="67299:67403" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="67320:67381" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="67523:67843" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="67542:67828" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="67630:67808" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="67670:67774" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="67691:67752" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="67878:68184" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="67897:68169" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="67971:68149" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="68011:68115" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="68032:68093" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="68236:68577" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="68255:68562" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="68364:68542" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="68404:68508" ph="..." />
+            <marker date="1505636026459" expanded="true" signature="68425:68486" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1157,6 +1180,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
           <folding />
         </state>
       </provider>
