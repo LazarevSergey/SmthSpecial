@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="727a7ad4-63e6-4c1e-858f-ac6995f17dd3" name="Default" comment="" />
+    <list default="true" id="727a7ad4-63e6-4c1e-858f-ac6995f17dd3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_telegram_telegrambotslib_3_3.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_example_telegrambots_3_3_jar_with_dependencies_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/telegrambots-3.3-jar-with-dependencies.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/telegrambots_3_3_jar_with_dependencies.xml" afterPath="$PROJECT_DIR$/.idea/libraries/telegrambots_3_3_jar_with_dependencies.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MammothZinoviyBot.iml" afterPath="$PROJECT_DIR$/MammothZinoviyBot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,28 +57,18 @@
       <file leaf-file-name="MammothZinoviyBot.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MammothZinoviyBot.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="255">
               <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/.m2/settings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="313">
+              <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -146,8 +144,8 @@
         <option value="$PROJECT_DIR$/src/Bot.java" />
         <option value="$PROJECT_DIR$/config/system.property" />
         <option value="$PROJECT_DIR$/src/main/java/Commands.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$USER_HOME$/.m2/settings.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -164,7 +162,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -230,7 +228,37 @@
             <path>
               <item name="MammothZinoviyBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="MammothZinoviyBot" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MammothZinoviyBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MammothZinoviyBot" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MammothZinoviyBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MammothZinoviyBot" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="telegram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MammothZinoviyBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MammothZinoviyBot" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="telegram" type="462c0819:PsiDirectoryNode" />
+              <item name="telegrambotslib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MammothZinoviyBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MammothZinoviyBot" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="telegram" type="462c0819:PsiDirectoryNode" />
+              <item name="telegrambotslib" type="462c0819:PsiDirectoryNode" />
+              <item name="3.3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MammothZinoviyBot" type="b2602c69:ProjectViewProjectNode" />
@@ -266,9 +294,15 @@
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="mammothzinoviybot" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sereg\OneDrive\Документы\GitHub\SmthSpecial\MammothZinoviyBot\repo" />
+      <recent name="C:\Users\sereg\OneDrive\Документы\GitHub\SmthSpecial\MammothZinoviyBot\libs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sereg\OneDrive\Документы\GitHub\SmthSpecial\MammothZinoviyBot\repo" />
       <recent name="C:\Users\sereg\OneDrive\Документы\GitHub\SmthSpecial\MammothZinoviyBot\libs" />
     </key>
   </component>
@@ -706,24 +740,25 @@
     <option name="totallyTimeSpent" value="14898000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33123028" sideWeight="0.4919473" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.336" sideWeight="0.5330396" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33123028" sideWeight="0.5080527" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.336" sideWeight="0.46696034" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.4948605" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.58052707" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17349927" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34801763" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1046,47 +1081,47 @@
         <state relative-caret-position="-21173">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1505632940170" expanded="true" signature="61136:61178" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="61136:61196" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="61136:61209" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="61136:61224" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="70502:72799" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="70502:72784" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="70502:70618" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="70502:70603" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="70502:70583" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="70502:70549" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="70502:70527" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="70668:70995" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="70687:70980" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="70782:70960" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="70822:70926" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="70843:70904" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71046:71311" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71065:71296" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71098:71276" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71138:71242" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71159:71220" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71354:71665" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71373:71650" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71452:71630" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71492:71596" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71513:71574" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71716:72036" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71735:72021" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71823:72001" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71863:71967" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="71884:71945" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="72071:72377" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="72090:72362" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="72164:72342" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="72204:72308" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="72225:72286" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="72429:72770" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="72448:72755" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="72557:72735" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="72597:72701" ph="..." />
-            <marker date="1505632940170" expanded="true" signature="72618:72679" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="61136:61178" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="61136:61196" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="61136:61209" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="61136:61224" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65148:67445" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65148:67430" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65148:65264" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65148:65249" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65148:65229" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65148:65195" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65148:65173" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65314:65641" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65333:65626" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65428:65606" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65468:65572" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65489:65550" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65692:65957" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65711:65942" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65744:65922" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65784:65888" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="65805:65866" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66000:66311" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66019:66296" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66098:66276" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66138:66242" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66159:66220" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66362:66682" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66381:66667" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66469:66647" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66509:66613" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66530:66591" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66717:67023" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66736:67008" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66810:66988" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66850:66954" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="66871:66932" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="67075:67416" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="67094:67401" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="67203:67381" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="67243:67347" ph="..." />
+            <marker date="1505635373484" expanded="true" signature="67264:67325" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1104,24 +1139,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MammothZinoviyBot.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="255">
           <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.m2/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="51">
+          <caret line="3" column="117" lean-forward="false" selection-start-line="3" selection-start-column="117" selection-end-line="3" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
           <folding />
         </state>
       </provider>
