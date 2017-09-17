@@ -1,1 +1,1 @@
-web: java -Dexec.mainClass="Main"
+web: java -jar target/MammothZinoviyBot-1.0.jar
