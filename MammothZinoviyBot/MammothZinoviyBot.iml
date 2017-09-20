@@ -7,11 +7,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/repo" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/$MODULE" />
+      <excludeFolder url="file://$MODULE_DIR$/$MODULE_DIR%" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="telegrambots-3.3-jar-with-dependencies" level="project" />
-    <orderEntry type="library" name="Maven: com.telegram:telegrambotslib:3.3" level="project" />
+    <orderEntry type="library" name="telegrambotslib-3.3" level="project" />
   </component>
 </module>

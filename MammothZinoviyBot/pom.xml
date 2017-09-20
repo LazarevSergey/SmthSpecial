@@ -30,6 +30,11 @@
                 </configuration>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>${project.basedir}/repo</directory>
+            </resource>
+        </resources>
     </build>
     <repositories>
         <!--other repositories if any-->
