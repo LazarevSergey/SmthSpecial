@@ -15,5 +15,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="telegrambotslib-3.3" level="project" />
+    <orderEntry type="library" name="Maven: com.telegram:telegrambotslib:3.3" level="project" />
   </component>
 </module>
