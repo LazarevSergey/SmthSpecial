@@ -48,11 +48,18 @@ public class Bot extends TelegramLongPollingBot{
                     msg = "Ну что с тобой делать!? Для гитариста не простительно забывать.\n" +
                             " репертуар. (Хотя я и сам порой забываю важные вещи)";
                     msg += Commands.getDescriptionOfAllCommands("Songs");
-                default:
-                    sendMsg(message, "Привет! С тобой общается мамонт Зиновий. И да, я настоящий мамонт. " +
-                            "Пиши /help и я помогу.");
+                    sendMsg(message, msg);
                     break;
             }
+            if (msg == null)
+                if (message.getText().startsWith("/singerchords")){
+
+                } else {
+
+                }
+            if (msg == null)
+                sendMsg(message, "Привет! С тобой общается мамонт Зиновий. И да, я настоящий мамонт. " +
+                        "Пиши /help и я помогу.");
         }
     }
 
