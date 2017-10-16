@@ -7,14 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="727a7ad4-63e6-4c1e-858f-ac6995f17dd3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Т/Торба-на-круче/Драконы/chords.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Т/Торба-на-круче/Драконы/text.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MammothZinoviyBot-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/MammothZinoviyBot-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Chords.class" afterPath="$PROJECT_DIR$/target/classes/Chords.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Utils.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Bot.java" afterPath="$PROJECT_DIR$/src/main/java/Bot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MammothZinoviyBot.iml" afterPath="$PROJECT_DIR$/MammothZinoviyBot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Chords.java" afterPath="$PROJECT_DIR$/src/main/java/Chords.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utils.java" afterPath="$PROJECT_DIR$/src/main/java/Utils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,22 +73,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bot.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Bot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="53" column="42" lean-forward="false" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+            <state relative-caret-position="132">
+              <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chords.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Chords.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Chords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            <state relative-caret-position="126">
+              <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bot.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/classes/Bot.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-561">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#3698#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,9 +185,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Texts.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Т/Торба-на-круче/Драконы/chords.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Т/Торба-на-круче/Драконы/text.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/Chords.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Chords.java" />
       </list>
     </option>
   </component>
@@ -290,6 +299,30 @@
               <item name="MammothZinoviyBot" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MammothZinoviyBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MammothZinoviyBot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="Т" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MammothZinoviyBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MammothZinoviyBot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="Т" type="462c0819:PsiDirectoryNode" />
+              <item name="Торба-на-круче" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MammothZinoviyBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MammothZinoviyBot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="Т" type="462c0819:PsiDirectoryNode" />
+              <item name="Торба-на-круче" type="462c0819:PsiDirectoryNode" />
+              <item name="Драконы" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MammothZinoviyBot" type="b2602c69:ProjectViewProjectNode" />
@@ -847,15 +880,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Chords.java</url>
-          <line>7</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -864,13 +889,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/telegramlibs/telegrambots-3.3-jar-with-dependencies.jar!/org/telegram/telegrambots/api/methods/updates/GetUpdates.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
@@ -1085,47 +1103,47 @@
         <state relative-caret-position="289">
           <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding>
-            <marker date="1508181391910" expanded="true" signature="69247:69264" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69247:69282" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69247:69295" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69247:69310" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69345:71928" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69358:71913" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69412:69766" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69431:69751" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69553:69731" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69593:69697" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69614:69675" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69816:70143" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69835:70128" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69930:70108" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69970:70074" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="69991:70052" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="70194:70459" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="70213:70444" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="70246:70424" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="70286:70390" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="70307:70368" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="70502:70813" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="70521:70798" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="70600:70778" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="70640:70744" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="70661:70722" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="70864:71184" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="70883:71169" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="70971:71149" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="71011:71115" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="71032:71093" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="71219:71525" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="71238:71510" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="71312:71490" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="71352:71456" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="71373:71434" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="71577:71899" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="71596:71884" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="71686:71864" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="71726:71830" ph="..." />
-            <marker date="1508181391910" expanded="true" signature="71747:71808" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="70649:70666" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="70649:70684" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="70649:70697" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="70649:70712" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="70747:73330" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="70760:73315" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="70814:71168" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="70833:71153" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="70955:71133" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="70995:71099" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="71016:71077" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="71218:71545" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="71237:71530" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="71332:71510" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="71372:71476" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="71393:71454" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="71596:71861" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="71615:71846" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="71648:71826" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="71688:71792" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="71709:71770" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="71904:72215" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="71923:72200" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72002:72180" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72042:72146" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72063:72124" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72266:72586" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72285:72571" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72373:72551" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72413:72517" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72434:72495" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72621:72927" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72640:72912" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72714:72892" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72754:72858" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72775:72836" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72979:73301" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="72998:73286" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="73088:73266" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="73128:73232" ph="..." />
+            <marker date="1508182569054" expanded="true" signature="73149:73210" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1181,14 +1199,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Chords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1213,10 +1223,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/Bot.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#3698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Bot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="53" column="42" lean-forward="false" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        <state relative-caret-position="132">
+          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Chords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
           <folding />
         </state>
       </provider>
