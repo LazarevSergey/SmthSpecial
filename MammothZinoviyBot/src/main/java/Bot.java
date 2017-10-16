@@ -34,7 +34,7 @@ public class Bot extends TelegramLongPollingBot{
                     break;
                 case "/songs":
                     msg = "Привет! Сейчас я расскажу тебе, как найти нужную информацию о песне.\n" +
-                            "Вот перечень команда, которые я понимаю:\n";
+                            "Вот перечень команда, которые я понимаю, только будет предельно внимательным:\n";
                     msg += Commands.getDescriptionOfAllCommands("Songs");
                     sendMsg(message, msg);
                     break;
@@ -44,18 +44,12 @@ public class Bot extends TelegramLongPollingBot{
                     msg += Commands.getDescriptionOfAllCommands("Events");
                     sendMsg(message, msg);
                     break;
-                case "/chords":
-                    msg = "Ну что с тобой делать!? Для гитариста не простительно забывать.\n" +
-                            " репертуар. (Хотя я и сам порой забываю важные вещи)";
-                    msg += Commands.getDescriptionOfAllCommands("Songs");
-                    sendMsg(message, msg);
-                    break;
             }
             if (msg == null)
-                if (message.getText().startsWith("/singerchords")){
-
-                } else {
-
+                if (message.getText().startsWith("/chords")){
+                    msg = Chords.getChords(msg.substring(8));
+                } else if (message.getText().startsWith("/text")) {
+                    msg = Texts.getText(msg.substring(6));
                 }
             if (msg == null)
                 sendMsg(message, "Привет! С тобой общается мамонт Зиновий. И да, я настоящий мамонт. " +

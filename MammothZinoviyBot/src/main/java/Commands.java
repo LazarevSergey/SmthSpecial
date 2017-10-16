@@ -46,10 +46,9 @@ public class Commands {
         tempCommandsDescription = new HashMap<Integer, String>();
         tempCommands.put(TEXTS, "/text");
         tempCommands.put(CHORDS, "/chords");
-        tempCommandsDescription.put(TEXTS, "Забыл слова. Сейчас напомним пиши комманду в формате:\n" +
-                "'/text <имя_исполнителя> -- <название_песни>'");
+        tempCommandsDescription.put(TEXTS, "Забыл слова. Сейчас напомним пиши комманду в формате:\n");
         tempCommandsDescription.put(CHORDS, "Забыл аккорды. С этим потяжелее. Посмотрим, что я смогу сделать.\n" +
-                                                "Пиши комманду в формате:\n" + "'/chords <имя_исполнителя> -- <название_песни>'");
+                                                "Пиши комманду в формате:\n");
         songsCommands = Collections.unmodifiableMap(tempCommands);
         songsCommandsDescription = Collections.unmodifiableMap(tempCommandsDescription);
 
@@ -87,7 +86,7 @@ public class Commands {
                 break;
             case "Songs":
                 for(Integer key: songsCommands.keySet()){
-                    msg += songsCommandsDescription.get(key) + " - " + songsCommands.get(key) + "\n";
+                    msg += songsCommandsDescription.get(key) + " - " + songsCommands.get(key) + " <имя_исполнителя> -- <название_песни>" + "\n";
                 }
                 break;
             case "Events":

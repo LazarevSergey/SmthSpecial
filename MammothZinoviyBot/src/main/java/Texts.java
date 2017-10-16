@@ -3,4 +3,8 @@
  */
 public class Texts {
 
+    public static String getText(String substring) {
+        String[] songData = Utils.getSongData(substring);
+        return songData.toString();
+    }
 }
