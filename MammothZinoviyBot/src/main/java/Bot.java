@@ -24,24 +24,34 @@ public class Bot extends TelegramLongPollingBot{
     public void onUpdateReceived(Update update) {
         Message message = update.getMessage();
         if (message != null && message.hasText()){
-            if (message.getText().equals("/help")){
-                String msg = "Привет, дорогой друг! Сейчас я расскажу тебе, как со мной общаться.\n" +
-                        "Вот перечень команда основного меню, которые я понимаю:\n";
-                msg += Commands.getDescriptionOfAllCommands("Main");
-                sendMsg(message, msg);
-            }else if (message.getText().equals("/songs")){
-                String msg = "Привет! Сейчас я расскажу тебе, как найти нужную информацию о песне.\n" +
-                        "Вот перечень команда, которые я понимаю:\n";
-                msg += Commands.getDescriptionOfAllCommands("Songs");
-                sendMsg(message, msg);
-            } else if (message.getText().equals("/events")){
-                String msg = "Привет! Сейчас я расскажу, что тебя ожидает в ближайшее время.\n" +
-                        "Вот перечень команда, которые я понимаю:\n";
-                msg += Commands.getDescriptionOfAllCommands("Events");
-                sendMsg(message, msg);
-            } else {
-                sendMsg(message, "Привет! С тобой общается мамонт Зиновий. И да, я настоящий мамонт. " +
-                        "Пиши /help и я помогу.");
+            String msg = new String();
+            switch(message.getText()) {
+                case "/help":
+                    msg = "Привет, дорогой друг! Сейчас я расскажу тебе, как со мной общаться.\n" +
+                            "Вот перечень команда основного меню, которые я понимаю:\n";
+                    msg += Commands.getDescriptionOfAllCommands("Main");
+                    sendMsg(message, msg);
+                    break;
+                case "/songs":
+                    msg = "Привет! Сейчас я расскажу тебе, как найти нужную информацию о песне.\n" +
+                            "Вот перечень команда, которые я понимаю:\n";
+                    msg += Commands.getDescriptionOfAllCommands("Songs");
+                    sendMsg(message, msg);
+                    break;
+                case "/events":
+                    msg = "Привет! Сейчас я расскажу, что тебя ожидает в ближайшее время.\n" +
+                            "Вот перечень команда, которые я понимаю:\n";
+                    msg += Commands.getDescriptionOfAllCommands("Events");
+                    sendMsg(message, msg);
+                    break;
+                case "/chords":
+                    msg = "Ну что с тобой делать!? Для гитариста не простительно забывать.\n" +
+                            " репертуар. (Хотя я и сам порой забываю важные вещи)";
+                    msg += Commands.getDescriptionOfAllCommands("Songs");
+                default:
+                    sendMsg(message, "Привет! С тобой общается мамонт Зиновий. И да, я настоящий мамонт. " +
+                            "Пиши /help и я помогу.");
+                    break;
             }
         }
     }

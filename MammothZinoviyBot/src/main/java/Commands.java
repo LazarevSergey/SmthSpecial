@@ -62,6 +62,17 @@ public class Commands {
                                                 "пиши команду.");
         eventCommands = Collections.unmodifiableMap(tempCommands);
         eventCommandsDescription = Collections.unmodifiableMap(tempCommandsDescription);
+
+        tempCommands = new HashMap<Integer, String>();
+        tempCommandsDescription = new HashMap<Integer, String>();
+        tempCommands.put(QUEST, "/quest");
+        tempCommands.put(TRIP, "/trip");
+        tempCommandsDescription.put(QUEST, "Если хочешь узнать, когда квест, или просмотреть статистику команды по всем квестам, " +
+                "пиши команду.");
+        tempCommandsDescription.put(TRIP, "Хочешь узнать, когда ближайшая вылазка на природу или за пределы Москвы, " +
+                "пиши команду.");
+        dndCommands = Collections.unmodifiableMap(tempCommands);
+        dndCommandsDescription = Collections.unmodifiableMap(tempCommandsDescription);
     }
 
 
