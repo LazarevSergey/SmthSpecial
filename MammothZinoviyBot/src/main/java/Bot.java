@@ -48,8 +48,10 @@ public class Bot extends TelegramLongPollingBot{
             if (msg == null)
                 if (message.getText().startsWith("/chords")){
                     msg = Chords.getChords(msg.substring(8));
+                    sendMsg(message, msg);
                 } else if (message.getText().startsWith("/text")) {
                     msg = Texts.getText(msg.substring(6));
+                    sendMsg(message, msg);
                 }
             if (msg == null)
                 sendMsg(message, "Привет! С тобой общается мамонт Зиновий. И да, я настоящий мамонт. " +
