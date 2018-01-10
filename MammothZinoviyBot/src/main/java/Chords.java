@@ -1,4 +1,7 @@
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.stream.Stream;
 
 /**
  * Created by sereg on 16.09.2017.
@@ -6,14 +9,22 @@ import java.io.*;
 public class Chords {
     public static String getChords(String substring) {
         String[] songData = Utils.getSongData(substring);
-        String msg = new String();
+        String msg = null;
         try {
-            FileReader fileReader = new FileReader(Chords.class.getResource(songData[0].substring(0,0) + "/" +
-                    songData[0] + "/" + songData[1] + "/chords.txt").getPath());
-            BufferedReader bufferedReader = new BufferedReader(fileReader);
-            msg = bufferedReader.readLine();
-            bufferedReader.close();
-        } catch (IOException e) {
+            Stream<String> lines = Files.lines(Paths.get(
+                    String.valueOf(ClassLoader.getSystemResourceAsStream(
+                            songData[0].substring(0, 1) + "\\" + songData[0] + "\\" + songData[1] + "\\chords.txt"))));
+            for (String line : (Iterable<String>) () -> lines.iterator()) {
+                msg += line;
+                msg += "\n";
+            }
+//            String path = "/"+ songData[0].substring(0,1) + "/" + songData[0] + "/" + songData[1] + "/chords.txt";
+//            FileReader fileReader = new FileReader(Chords.class.getResource("/"+ songData[0].substring(0,1) + "/" +
+//                    songData[0] + "/" + songData[1] + "/chords.txt").getPath());
+//            BufferedReader bufferedReader = new BufferedReader(fileReader);
+//            msg = bufferedReader.readLine();
+//            bufferedReader.close();
+        } catch (IOException|NullPointerException e) {
             e.printStackTrace();
             return "Ooops! Что-то пошло не так! ПОМОГИТЕ!";
         }
