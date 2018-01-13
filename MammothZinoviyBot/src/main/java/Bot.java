@@ -45,15 +45,17 @@ public class Bot extends TelegramLongPollingBot{
                     sendMsg(message, msg);
                     break;
             }
-            if (msg == null)
-                if (message.getText().startsWith("/chords")){
-                    msg = Chords.getChords(msg.substring(8));
+            if (msg == null || msg.isEmpty()) {
+                String request = message.getText();
+                if (message.getText().startsWith("/chords")) {
+                    msg = Chords.getChords(request.substring(8));
                     sendMsg(message, msg);
                 } else if (message.getText().startsWith("/text")) {
-                    msg = Texts.getText(msg.substring(6));
+                    msg = Texts.getText(request.substring(6));
                     sendMsg(message, msg);
                 }
-            if (msg == null)
+            }
+            if (msg == null || msg.isEmpty())
                 sendMsg(message, "Привет! С тобой общается мамонт Зиновий. И да, я настоящий мамонт. " +
                         "Пиши /help и я помогу.");
         }
