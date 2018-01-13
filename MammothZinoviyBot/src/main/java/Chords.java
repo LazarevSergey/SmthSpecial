@@ -18,6 +18,7 @@ public class Chords {
                 msg += line;
                 msg += "\n";
             }
+            if (msg == null || msg.isEmpty()) return "Файл " + substring + " не найден!";
 //            String path = "/"+ songData[0].substring(0,1) + "/" + songData[0] + "/" + songData[1] + "/chords.txt";
 //            FileReader fileReader = new FileReader(Chords.class.getResource("/"+ songData[0].substring(0,1) + "/" +
 //                    songData[0] + "/" + songData[1] + "/chords.txt").getPath());
