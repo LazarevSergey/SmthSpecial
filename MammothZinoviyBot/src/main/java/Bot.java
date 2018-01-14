@@ -4,9 +4,6 @@ import org.telegram.telegrambots.api.objects.Update;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
 
-import java.sql.SQLException;
-import java.sql.Statement;
-
 /**
  * Created by sereg on 16.09.2017.
  */
@@ -45,116 +42,6 @@ public class Bot extends TelegramLongPollingBot{
                     msg = "Привет! Сейчас я расскажу, что тебя ожидает в ближайшее время.\n" +
                             "Вот перечень команда, которые я понимаю:\n";
                     msg += Commands.getDescriptionOfAllCommands("Events");
-                    sendMsg(message, msg);
-                    break;
-                case "/allevents":
-                    try {
-                        Statement statement = BotDB.getStatement();
-                        msg = BotDB.getEvents(statement);
-                        statement.close();
-                    } catch (SQLException e) {
-                        e.printStackTrace();
-                        msg = "Проблемы в работе с БД!";
-                    }
-                    sendMsg(message, msg);
-                    break;
-                case "/allquests":
-                    try {
-                        Statement statement = BotDB.getStatement();
-                        msg = BotDB.getEventsByEventType(statement, "quest");
-                        statement.close();
-                    } catch (SQLException e) {
-                        e.printStackTrace();
-                        msg = "Проблемы в работе с БД!";
-                    }
-                    sendMsg(message, msg);
-                    break;
-                case "/alltrips":
-                    try {
-                        Statement statement = BotDB.getStatement();
-                        msg = BotDB.getEventsByEventType(statement, "trip");
-                        statement.close();
-                    } catch (SQLException e) {
-                        e.printStackTrace();
-                        msg = "Проблемы в работе с БД!";
-                    }
-                    sendMsg(message, msg);
-                    break;
-                case "/alldnds":
-                    try {
-                        Statement statement = BotDB.getStatement();
-                        msg = BotDB.getEventsByEventType(statement, "dndsession");
-                        statement.close();
-                    } catch (SQLException e) {
-                        e.printStackTrace();
-                        msg = "Проблемы в работе с БД!";
-                    }
-                    sendMsg(message, msg);
-                    break;
-                case "/allgames":
-                    try {
-                        Statement statement = BotDB.getStatement();
-                        msg = BotDB.getEventsByEventType(statement, "game");
-                        statement.close();
-                    } catch (SQLException e) {
-                        e.printStackTrace();
-                        msg = "Проблемы в работе с БД!";
-                    }
-                    sendMsg(message, msg);
-                    break;
-                case "/thenearestevent":
-                    try {
-                        Statement statement = BotDB.getStatement();
-                        msg = BotDB.getTheNearestEvent(statement);
-                        statement.close();
-                    } catch (SQLException e) {
-                        e.printStackTrace();
-                        msg = "Проблемы в работе с БД!";
-                    }
-                    sendMsg(message, msg);
-                    break;
-                case "/thenearestquest":
-                    try {
-                        Statement statement = BotDB.getStatement();
-                        msg = BotDB.getTheNearestEventByEventType(statement, "quest");
-                        statement.close();
-                    } catch (SQLException e) {
-                        e.printStackTrace();
-                        msg = "Проблемы в работе с БД!";
-                    }
-                    sendMsg(message, msg);
-                    break;
-                case "/thenearesttrip":
-                    try {
-                        Statement statement = BotDB.getStatement();
-                        msg = BotDB.getTheNearestEventByEventType(statement, "trip");
-                        statement.close();
-                    } catch (SQLException e) {
-                        e.printStackTrace();
-                        msg = "Проблемы в работе с БД!";
-                    }
-                    sendMsg(message, msg);
-                    break;
-                case "/thenearestdnd":
-                    try {
-                        Statement statement = BotDB.getStatement();
-                        msg = BotDB.getTheNearestEventByEventType(statement, "dndsession");
-                        statement.close();
-                    } catch (SQLException e) {
-                        e.printStackTrace();
-                        msg = "Проблемы в работе с БД!";
-                    }
-                    sendMsg(message, msg);
-                    break;
-                case "/thenearestgame":
-                    try {
-                        Statement statement = BotDB.getStatement();
-                        msg = BotDB.getTheNearestEventByEventType(statement, "game");
-                        statement.close();
-                    } catch (SQLException e) {
-                        e.printStackTrace();
-                        msg = "Проблемы в работе с БД!";
-                    }
                     sendMsg(message, msg);
                     break;
             }
