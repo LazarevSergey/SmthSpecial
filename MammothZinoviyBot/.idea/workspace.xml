@@ -9,6 +9,7 @@
     <list default="true" id="727a7ad4-63e6-4c1e-858f-ac6995f17dd3" name="Default" comment="">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/BotDB.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/MammothZinoviyBot-1.0-SNAPSHOT.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Bot.class" afterPath="" />
@@ -32,6 +33,20 @@
 =======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Chords.java" afterPath="$PROJECT_DIR$/src/main/java/Chords.java" />
 >>>>>>> parent of 4646fc5... caching songs
+=======
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/T/Torba_na_kruche/Drakon/chords.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/T/Torba_na_kruche/Drakon/text.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/T/Torba_na_kruche/Drakon/chords.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/T/Torba_na_kruche/Drakon/text.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MammothZinoviyBot-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/MammothZinoviyBot-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Chords.class" afterPath="$PROJECT_DIR$/target/classes/Chords.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Texts.class" afterPath="$PROJECT_DIR$/target/classes/Texts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utils.class" afterPath="$PROJECT_DIR$/target/classes/Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Chords.java" afterPath="$PROJECT_DIR$/src/main/java/Chords.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Texts.java" afterPath="$PROJECT_DIR$/src/main/java/Texts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utils.java" afterPath="$PROJECT_DIR$/src/main/java/Utils.java" />
+>>>>>>> parent of cd5fbb3... getEvents
 =======
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/T/Torba_na_kruche/Drakon/chords.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/T/Torba_na_kruche/Drakon/text.txt" afterPath="" />
@@ -79,12 +94,17 @@
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="187">
               <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
 =======
             <state relative-caret-position="34">
               <caret line="2" column="69" lean-forward="false" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
 >>>>>>> parent of 4646fc5... caching songs
+=======
+            <state relative-caret-position="51">
+              <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+>>>>>>> parent of cd5fbb3... getEvents
 =======
             <state relative-caret-position="51">
               <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
@@ -129,8 +149,13 @@
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="201">
               <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+=======
+            <state relative-caret-position="204">
+              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+>>>>>>> parent of cd5fbb3... getEvents
 =======
             <state relative-caret-position="204">
               <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
@@ -152,6 +177,7 @@
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="-2121">
               <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
@@ -171,6 +197,11 @@
               <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
               <folding />
 >>>>>>> parent of cd5fbb3... getEvents
+=======
+            <state relative-caret-position="884">
+              <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+              <folding />
+>>>>>>> parent of cd5fbb3... getEvents
             </state>
           </provider>
         </entry>
@@ -178,6 +209,7 @@
       <file leaf-file-name="Chords.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Chords.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="17">
@@ -222,10 +254,16 @@
               <folding />
 =======
             <state relative-caret-position="141">
+=======
+            <state relative-caret-position="141">
+>>>>>>> parent of cd5fbb3... getEvents
               <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+<<<<<<< HEAD
+>>>>>>> parent of cd5fbb3... getEvents
+=======
 >>>>>>> parent of cd5fbb3... getEvents
             </state>
           </provider>
@@ -278,10 +316,14 @@
         <option value="$PROJECT_DIR$/MammothZinoviyBot.iml" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Texts.java" />
 >>>>>>> parent of 4646fc5... caching songs
+=======
+        <option value="$PROJECT_DIR$/pom.xml" />
+>>>>>>> parent of cd5fbb3... getEvents
 =======
         <option value="$PROJECT_DIR$/pom.xml" />
 >>>>>>> parent of cd5fbb3... getEvents
@@ -291,10 +333,13 @@
         <option value="$PROJECT_DIR$/src/main/java/DnD.java" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/Chords.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Bot.java" />
+=======
+>>>>>>> parent of cd5fbb3... getEvents
 =======
 >>>>>>> parent of cd5fbb3... getEvents
         <option value="$PROJECT_DIR$/src/main/java/Commands.java" />
@@ -303,6 +348,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Chords.java" />
         <option value="$PROJECT_DIR$/src/main/java/Texts.java" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <option value="$PROJECT_DIR$/src/main/java/Commands.java" />
         <option value="$PROJECT_DIR$/repo/com/telegram/telegrambotslib/3.3/telegrambotslib-3.3.jar!/org/telegram/telegrambots/updatesreceivers/DefaultBotSession.class" />
@@ -310,6 +356,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/Chords.java" />
 >>>>>>> parent of 4646fc5... caching songs
+=======
+        <option value="$PROJECT_DIR$/src/main/java/Utils.java" />
+>>>>>>> parent of cd5fbb3... getEvents
 =======
         <option value="$PROJECT_DIR$/src/main/java/Utils.java" />
 >>>>>>> parent of cd5fbb3... getEvents
@@ -435,7 +484,10 @@
             </path>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of cd5fbb3... getEvents
 =======
 >>>>>>> parent of cd5fbb3... getEvents
             <path>
@@ -454,6 +506,7 @@
               <item name="MammothZinoviyBot" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
 <<<<<<< HEAD
               <item name="T" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -481,6 +534,8 @@
               <item name="classes" type="462c0819:PsiDirectoryNode" />
 =======
 >>>>>>> parent of cd5fbb3... getEvents
+=======
+>>>>>>> parent of cd5fbb3... getEvents
               <item name="Т" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -501,7 +556,10 @@
               <item name="Драконы" type="462c0819:PsiDirectoryNode" />
             </path>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 4646fc5... caching songs
+=======
+>>>>>>> parent of cd5fbb3... getEvents
 =======
 >>>>>>> parent of cd5fbb3... getEvents
           </expand>
@@ -996,8 +1054,13 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
 <<<<<<< HEAD
+=======
+    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
+    <editor active="true" />
+>>>>>>> parent of cd5fbb3... getEvents
 =======
     <frame x="-7" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
@@ -1011,6 +1074,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344" sideWeight="0.4801762" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33438486" sideWeight="0.5168375" order="9" side_tool="false" content_ui="tabs" />
 =======
@@ -1029,10 +1093,14 @@
 =======
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344" sideWeight="0.5198238" order="9" side_tool="false" content_ui="tabs" />
 >>>>>>> parent of cd5fbb3... getEvents
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344" sideWeight="0.5198238" order="9" side_tool="false" content_ui="tabs" />
+>>>>>>> parent of cd5fbb3... getEvents
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22547585" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -1042,16 +1110,23 @@
 =======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23054332" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
 >>>>>>> parent of cd5fbb3... getEvents
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23054332" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+>>>>>>> parent of cd5fbb3... getEvents
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39747635" sideWeight="0.8250366" order="10" side_tool="false" content_ui="tabs" />
 =======
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.49341142" order="10" side_tool="false" content_ui="tabs" />
 >>>>>>> parent of 4646fc5... caching songs
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984" sideWeight="0.82966226" order="10" side_tool="false" content_ui="tabs" />
+>>>>>>> parent of cd5fbb3... getEvents
 =======
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984" sideWeight="0.82966226" order="10" side_tool="false" content_ui="tabs" />
 >>>>>>> parent of cd5fbb3... getEvents
@@ -1089,6 +1164,7 @@
         <line-breakpoint enabled="true" type="java-line">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/src/main/java/Texts.java</url>
           <line>14</line>
           <properties />
@@ -1101,12 +1177,17 @@
           <url>file://$PROJECT_DIR$/src/main/java/Utils.java</url>
           <line>2</line>
 >>>>>>> parent of cd5fbb3... getEvents
+=======
+          <url>file://$PROJECT_DIR$/src/main/java/Utils.java</url>
+          <line>2</line>
+>>>>>>> parent of cd5fbb3... getEvents
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Texts.java</url>
           <line>14</line>
+<<<<<<< HEAD
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -1129,6 +1210,19 @@
       <option name="time" value="20" />
 >>>>>>> parent of 4646fc5... caching songs
 =======
+      <option name="time" value="27" />
+>>>>>>> parent of cd5fbb3... getEvents
+=======
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Chords.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
       <option name="time" value="27" />
 >>>>>>> parent of cd5fbb3... getEvents
     </breakpoint-manager>
@@ -1385,6 +1479,7 @@
     </entry>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/Commands.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1406,11 +1501,19 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
 >>>>>>> parent of cd5fbb3... getEvents
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/T/Torba_na_kruche/Drakon/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> parent of cd5fbb3... getEvents
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Bot.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="136">
@@ -1423,12 +1526,17 @@
         <state relative-caret-position="884">
           <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
 >>>>>>> parent of cd5fbb3... getEvents
+=======
+        <state relative-caret-position="884">
+          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+>>>>>>> parent of cd5fbb3... getEvents
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Texts.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="101">
@@ -1439,17 +1547,23 @@
 >>>>>>> parent of 4646fc5... caching songs
           <folding />
 =======
+=======
+>>>>>>> parent of cd5fbb3... getEvents
         <state relative-caret-position="204">
           <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+<<<<<<< HEAD
+>>>>>>> parent of cd5fbb3... getEvents
+=======
 >>>>>>> parent of cd5fbb3... getEvents
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="17">
@@ -1512,6 +1626,32 @@
         </state>
       </provider>
     </entry>
+=======
+        <state relative-caret-position="141">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/repo/com/telegram/telegrambotslib/3.3/telegrambotslib-3.3.jar!/org/telegram/telegrambots/updatesreceivers/DefaultBotSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="145" column="38" lean-forward="false" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> parent of cd5fbb3... getEvents
   </component>
   <component name="masterDetails">
     <states>
