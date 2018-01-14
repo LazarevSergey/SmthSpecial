@@ -14,6 +14,8 @@ public class Commands {
     private static Integer CHORDS = 31;
     private static Integer QUEST = 42;
     private static Integer TRIP = 41;
+    private static Integer DNDSESSION = 43;
+    private static Integer GAME = 44;
 
     private static Map<Integer, String> mainCommands;
     private static Map<Integer, String> mainCommandsDescription;
@@ -56,10 +58,16 @@ public class Commands {
         tempCommandsDescription = new HashMap<Integer, String>();
         tempCommands.put(QUEST, "/quest");
         tempCommands.put(TRIP, "/trip");
+        tempCommands.put(DNDSESSION, "/dndsession");
+        tempCommands.put(GAME, "/game");
         tempCommandsDescription.put(QUEST, "Если хочешь узнать, когда квест, или просмотреть статистику команды по всем квестам, " +
                                                 "пиши команду.");
         tempCommandsDescription.put(TRIP, "Хочешь узнать, когда ближайшая вылазка на природу или за пределы Москвы, " +
                                                 "пиши команду.");
+        tempCommandsDescription.put(DNDSESSION, "Если хочешь узнать, когда ближайшая сессия в DnD, " +
+                "пиши команду.");
+        tempCommandsDescription.put(GAME, "Хочешь узнать, когда ближайшая сходка для настолок, " +
+                "пиши команду.");
         eventCommands = Collections.unmodifiableMap(tempCommands);
         eventCommandsDescription = Collections.unmodifiableMap(tempCommandsDescription);
 
@@ -67,7 +75,7 @@ public class Commands {
         tempCommandsDescription = new HashMap<Integer, String>();
         tempCommands.put(QUEST, "/quest");
         tempCommands.put(TRIP, "/trip");
-        tempCommandsDescription.put(QUEST, "Если хочешь узнать, когда квест, или просмотреть статистику команды по всем квестам, " +
+        tempCommandsDescription.put(QUEST, "Если хочешь узнать, когда квест, " +
                 "пиши команду.");
         tempCommandsDescription.put(TRIP, "Хочешь узнать, когда ближайшая вылазка на природу или за пределы Москвы, " +
                 "пиши команду.");
